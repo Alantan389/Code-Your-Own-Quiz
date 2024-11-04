@@ -1,0 +1,11 @@
+# Input values
+age = float(input("Enter your age in years: "))
+weight = float(input("Enter your weight in pounds: "))
+heart_rate = float(input("Enter your heart rate in beats per minute: "))
+time = float(input("Enter the exercise time in minutes: "))
+
+# Calculate calories burned
+calories = ((age * 0.2757) + (weight * 0.03295) + (heart_rate * 1.0781) - 75.4991) * time / 8.368
+
+# Output the result
+print('Calories: {:.2f} calories'.format(calories))
