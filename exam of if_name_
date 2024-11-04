@@ -1,0 +1,21 @@
+# Gravitational constants for various planets
+
+earth_g = 9.81  # m/s^2
+mars_g = 3.71
+
+if __name__ == '__main__':
+    print('Earth constant:', earth_g)
+    print('Mars constant:', mars_g)
+
+
+----------------------------------------------
+
+# Find seconds to drop from a height on some planets.
+import constants
+import math
+
+height = int(input('Height in meters: '))  # Meters from planet
+
+if __name__ == '__main__':
+    print('Earth:', math.sqrt(2 * height / constants.earth_g), 'seconds')
+    print('Mars:', math.sqrt(2 * height / constants.mars_g), 'seconds')
