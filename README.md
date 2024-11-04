@@ -33,3 +33,13 @@ Write a program using inputs age (years), weight (pounds), heart rate (beats per
 
 Output each floating-point value with two digits after the decimal point, which can be achieved as follows:
 print('Calories: {:.2f} calories'.format(calories))
+
+
+
+
+
+Variables, input, and type conversion
+(1) Prompt the user to input an integer between 32 and 126, a float, a character, and a string, storing each into separate variables. Then, output those four values on a single line separated by a space. (Submit for 2 points).
+
+Note: This zyLab outputs a newline after each user-input prompt. For convenience in the examples below, the user's input value is shown on the next line, but such values don't actually appear as output when the program runs.
+
