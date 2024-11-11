@@ -20,7 +20,7 @@ Times 11: A two-digit number can be easily multiplied by 11 in one's head simply
 
 
 
-
+--------------------------------------------------------------
 
 
 
@@ -44,7 +44,7 @@ Variables, input, and type conversion
 Note: This zyLab outputs a newline after each user-input prompt. For convenience in the examples below, the user's input value is shown on the next line, but such values don't actually appear as output when the program runs.
 
 
-
+-----------------------------------------------------------------
 
 creating passwords
 
